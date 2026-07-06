@@ -111,8 +111,8 @@ with tab_tracker:
     orbit_regime = st.sidebar.radio("Orbit Regime", ["GEO (Geosynchronous)", "LEO (Low Earth Orbit)"])
 
     if "GEO" in orbit_regime:
-        default_cands = "41838, 43874, 50321"
-        default_ref = "37606"
+        default_cands = "39210, 28737"
+        default_ref = "39209"
     else:
         default_cands = "43013, 48274, 40069"
         default_ref = "25544"
